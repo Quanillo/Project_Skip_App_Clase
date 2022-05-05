@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="612.0" style="-fx-background-color: #E7ECEF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EliminaFalta">
+   <children>
+      <Text fill="#274c77" layoutX="75.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Asignatura">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="ok" layoutX="214.0" layoutY="339.0" mnemonicParsing="false" text="¿Estas seguro?" textFill="#274c77">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <Text fill="#274c77" layoutX="75.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="eliminaFalta" layoutX="346.0" layoutY="309.0" mnemonicParsing="false" onMouseClicked="#eliminarAsignatura" prefHeight="53.0" prefWidth="131.0" style="-fx-background-color: #274C77; -fx-background-radius: 0;" text="Eliminar" textFill="#e7ecef">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text fx:id="resolucion" fill="#274c77" layoutX="214.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="274.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="comB" layoutX="213.0" layoutY="193.0" prefHeight="25.0" prefWidth="266.0" style="-fx-background-color: #274C77; -fx-background-radius: 0;" stylesheets="@style.css" />
+      <ComboBox fx:id="comBfecha" layoutX="213.0" layoutY="250.0" prefHeight="25.0" prefWidth="266.0" style="-fx-background-color: #274C77; -fx-background-radius: 0;" stylesheets="@style.css" />
+      <Text fill="#274c77" layoutX="210.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="liminar falta">
+         <font>
+            <Font name="Rage Italic" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="#a3cef1" layoutX="177.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E" wrappingWidth="64.0">
+         <font>
+            <Font name="Rage Italic" size="64.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

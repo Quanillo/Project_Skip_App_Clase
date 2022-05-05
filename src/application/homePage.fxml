@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="612.0" style="-fx-background-color: #E7ECEF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#274c77" layoutX="286.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ome">
+         <font>
+            <Font name="Rage Italic" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="#a3cef1" layoutX="242.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="H" wrappingWidth="64.0">
+         <font>
+            <Font name="Rage Italic" size="64.0" />
+         </font>
+      </Text>
+      <Text fill="#274c77" layoutX="97.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="El objetivo de Skip Approved es ayudar al usuario a no perder la cuenta y saber en todo momento cuantas y cuales han sido sus faltas de asistencia en un ambito que no tiene porqué ser escolar." wrappingWidth="399.13671875" />
+      <Text fill="#274c77" layoutX="97.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skip Approved no desea fomentar la falta de asistencia." wrappingWidth="392.13671875" />
+      <Text fill="#274c77" layoutX="96.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skip Approved no se responsabiliza de las consecuencias que puedan tener las faltas de asistencia en un usuario, así como de la pérdida de la evaluación continua." wrappingWidth="394.13671875" />
+      <Text fill="#274c77" layoutX="97.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skip Approved ha sido probada por nuestros más excelentes testers, por lo cual tampoco se responsabiliza de posibles erratas en la introducción de datos y/o fechas, y sus posibles consecuencias." wrappingWidth="399.13671875" />
+      <Text fill="#274c77" layoutX="102.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Created by Codigo Makina S.A® in association with Codigo Perro S.R.L®. " textAlignment="CENTER" wrappingWidth="400.13671875" />
+      <Text fill="#274c77" layoutX="106.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inspired and illuminated by Taiichi." wrappingWidth="189.626953125" />
+      <Text fill="#274c77" layoutX="413.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P.V.P 2 Paninis." wrappingWidth="88.13671875" />
+   </children>
+</AnchorPane>

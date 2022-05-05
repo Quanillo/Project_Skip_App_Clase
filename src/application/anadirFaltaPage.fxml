@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="612.0" style="-fx-background-color: #E7ECEF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.anadirFaltaClase">
+   <children>
+      <Text fill="#274c77" layoutX="58.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de horas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nHoras" layoutX="272.0" layoutY="227.0" prefHeight="25.0" prefWidth="240.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Text fill="#274c77" layoutX="58.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tFecha" layoutX="272.0" layoutY="282.0" prefHeight="25.0" prefWidth="240.0" style="-fx-background-radius: 0;">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Button fx:id="anadirFalta" layoutX="365.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#setFalta" prefHeight="50.0" prefWidth="147.0" style="-fx-background-color: #274C77; -fx-background-radius: 0;" text="Añadir falta" textFill="#e7ecef">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="clear" layoutX="272.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#clear" prefHeight="50.0" prefWidth="75.0" style="-fx-background-color: #274C77; -fx-background-radius: 0;" text="Clear" textFill="#e7ecef">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Text fx:id="resolucion" fill="#274c77" layoutX="272.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="240.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#274c77" layoutX="58.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Asignatura">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="comB" layoutX="272.0" layoutY="173.0" prefHeight="25.0" prefWidth="240.0" style="-fx-background-color: #274C77; -fx-background-radius: 0;" stylesheets="@style.css" />
+      <Text fill="#274c77" layoutX="230.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ñadir falta">
+         <font>
+            <Font name="Rage Italic" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="#a3cef1" layoutX="193.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A">
+         <font>
+            <Font name="Rage Italic" size="64.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

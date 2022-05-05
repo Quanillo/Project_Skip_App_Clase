@@ -1,0 +1,31 @@
+.default-color0.chart-pie{-fx-pie-color: #003f5c ;}
+.default-color1.chart-pie{-fx-pie-color: #2f4b7c ;}
+.default-color2.chart-pie{-fx-pie-color: #665191;}
+.default-color3.chart-pie{-fx-pie-color: #a05195;}
+.default-color4.chart-pie{-fx-pie-color: #d45087;}
+.default-color5.chart-pie{-fx-pie-color: #f95d6a;}
+.default-color6.chart-pie{-fx-pie-color: #ff7c43;}
+.default-color7.chart-pie{-fx-pie-color: #ffa600;}
+
+.default-color0.chart-bar{-fx-bar-fill: #003f5c ;}
+.default-color1.chart-bar{-fx-bar-fill: #2f4b7c ;}
+.default-color2.chart-bar{-fx-bar-fill: #665191;}
+.default-color3.chart-bar{-fx-bar-fill: #a05195;}
+.default-color4.chart-bar{-fx-bar-fill: #d45087;}
+.default-color5.chart-bar{-fx-bar-fill: #f95d6a;}
+.default-color6.chart-bar{-fx-bar-fill: #ff7c43;}
+.default-color7.chart-bar{-fx-bar-fill: #ffa600;}
+
+.default-color0.chart-series-line{-fx-stroke: #003f5c ;}
+.default-color1.chart-series-line{-fx-stroke: #2f4b7c ;}
+.default-color2.chart-series-line{-fx-stroke: #665191;}
+.default-color3.chart-series-line{-fx-stroke: #a05195;}
+.default-color4.chart-series-line{-fx-stroke: #d45087;}
+.default-color5.chart-series-line{-fx-stroke: #f95d6a;}
+.default-color6.chart-series-line{-fx-stroke: #ff7c43;}
+.default-color7.chart-series-line{-fx-stroke: #ffa600;}
+
+.combo-box .list-view .list-cell {-fx-text-fill:  #274C77; }
+.combo-box .cell:selected {
+    -fx-text-fill: #e7ecef;
+}
